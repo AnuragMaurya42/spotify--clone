@@ -11,15 +11,17 @@
 
 <body>
     <div class="container flex bg-black">
-        <div class="left ">
+        <div class="left">
             <div class="close">
                 <img width="30" class="invert" src="Images/close.svg" alt="close">
             </div>
             <div class="home bg-grey rounded m-1 p-1">
-                <div class="logo"><img width="112" class="invert" src="Images/logo.svg" alt="logo"></div>
+                <div class="logo">
+                    <img width="112" class="invert" src="Images/logo.svg" alt="logo">
+                </div>
                 <ul>
                     <li><img class="invert" src="Images/home.svg" alt="home">Home</li>
-                    <li><img class="invert" src="Images/search.svg" alt="home">Search</li>
+                    <li><img class="invert" src="Images/search.svg" alt="search">Search</li>
                 </ul>
             </div>
             <div class="library bg-grey rounded m-1 p-1">
@@ -29,21 +31,21 @@
                 </div>
                 <div class="songslist">
                     <ul>
-                      
+                        <!-- List of songs goes here -->
                     </ul>
                 </div>
                 <div class="footer">
                     <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
                     <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
-                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
-                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
                     <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
                     <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
                     <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
                 </div>
             </div>
         </div>
-        <div class="right bg-grey rounded ">
+
+        <div class="right bg-grey rounded">
             <div class="header">
                 <div class="nav">
                     <div class="hamburgerContainer">
@@ -55,276 +57,204 @@
                 <div class="button">
                     <button class="signupbtn" onclick="window.location.href='login.html'">Sign up</button>
                     <button class="loginbtn" onclick="window.location.href='login.html'">Log in</button>
-                    
                 </div>
             </div>
+
             <div class="spotifyPlaylists">
                 <h1>Spotify Playlists</h1>
 
-
-
                 <div class="cardContainer">
 
-                    <!-- <div data-folder="arjan" class="card">
+                    <div data-folder="sidhu" class="card">
                         <div class="play">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\arjan\chobar-arjan-dhillon.webp" alt="Play1">
-                   <h2>Arjan Dhillon</h2>
-                   <p>Arjan Best Ever Songs New Album</p>
-               </div>
- -->
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="songs/sidhu/chorni-sidhu-moose-wala.webp" alt="Play1">
+                        <h2>Sidhu Moose Wala</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
-               <div data-folder="sidhu" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\sidhu\chorni-sidhu-moose-wala.webp" alt="Play1">
-                   <h2>Sidhu Moose Wala</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-               <div data-folder="sidhu" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\sidhu\chorni-sidhu-moose-wala.webp" alt="Play1">
-                   <h2>Sidhu Moose Wala</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
+                    <!-- Repeated Sidhu Moose Wala playlist -->
+                    <div data-folder="sidhu" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="songs/sidhu/chorni-sidhu-moose-wala.webp" alt="Play1">
+                        <h2>Sidhu Moose Wala</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
+                            <div data-folder="sidhu" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="songs/sidhu/chorni-sidhu-moose-wala.webp" alt="Play1">
+                        <h2>Sidhu Moose Wala</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
-               <div data-folder="sidhu" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\sidhu\chorni-sidhu-moose-wala.webp" alt="Play1">
-                   <h2>Sidhu Moose Wala</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
+                            <div data-folder="sidhu" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="songs/sidhu/chorni-sidhu-moose-wala.webp" alt="Play1">
+                        <h2>Sidhu Moose Wala</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
-               
-               <!-- <div data-folder="diljit" class="card">
-                   <div class="play">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                       <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                   </svg>
-               </div>
-               
-                   <img src="songs\diljit\g.o.a.t-diljit-dosanjh.webp" alt="Play1">
-                   <h2>Diljit Dosanjh</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div> -->
+                    <!-- More repeated cards for Sidhu Moose Wala and others -->
 
+                    <div data-folder="karan" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="songs/karan/ballin-karan-aujla.webp" alt="Play1">
+                        <h2>Karan Aujla</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
+                    <div data-folder="karan" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="songs/karan/ballin-karan-aujla.webp" alt="Play1">
+                        <h2>Karan Aujla</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
-               <div data-folder="karan" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\karan\ballin-karan-aujla.webp" alt="Play1">
-                   <h2>Karan Aujla</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-               <div data-folder="karan" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\karan\ballin-karan-aujla.webp" alt="Play1">
-                   <h2>Karan Aujla</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-               <div data-folder="karan" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\karan\ballin-karan-aujla.webp" alt="Play1">
-                   <h2>Karan Aujla</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-               <div data-folder="karan" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\karan\ballin-karan-aujla.webp" alt="Play1">
-                   <h2>Karan Aujla</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
+                    <div data-folder="karan" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="songs/karan/ballin-karan-aujla.webp" alt="Play1">
+                        <h2>Karan Aujla</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
+                    <div data-folder="karan" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="songs/karan/ballin-karan-aujla.webp" alt="Play1">
+                        <h2>Karan Aujla</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
+                    <!-- Old Punjabi Songs (repeated multiple times) -->
 
-               <div data-folder="jassa" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="songs\jassa\love-war-jassa-dhillon.webp" alt="Play1">
-                   <h2>Jassa Dhillon</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="Images/img7.jpeg" alt="Play1">
+                        <h2>Old Punjabi Songs</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
-
-
-             
+                    
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="Images/img7.jpeg" alt="Play1">
+                        <h2>Old Punjabi Songs</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
 
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
-               <div data-folder="ncs" class="card">
-                   <div class="play">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
-                           <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
-                       </svg>
-                   </div>
-                   <img src="Images/img7.jpeg" alt="Play1">
-                   <h2>Old Punjabi Songs</h2>
-                   <p>Teddy Swims is on top of the Hottest 50!</p>
-               </div>
+                    
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="Images/img7.jpeg" alt="Play1">
+                        <h2>Old Punjabi Songs</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
 
 
+                    
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="Images/img7.jpeg" alt="Play1">
+                        <h2>Old Punjabi Songs</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
+
+
+                    
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill="#000" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="Images/img7.jpeg" alt="Play1">
+                        <h2>Old Punjabi Songs</h2>
+                        <p>Teddy Swims is on top of the Hottest 50!</p>
+                    </div>
+                    
+                    <!-- Repeat the above structure as needed -->
 
                 </div>
-                    <div class="playbar">
-                        <div class="seekbar">
-                            <div class="circle">
 
-                            </div>
-                        </div>
-                        <div class="abovebar">
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
                         <div class="songinfo">
-                            
+                            <!-- Song info goes here -->
                         </div>
                         <div class="songsbtn">
-                            <img width="35" id="previous" src="Images/prevplay.svg" alt="Previous Buttons">
-                            <img width="35" id="play" src="Images/play.svg" alt="Play Buttons">
-                            <img width="35" id="next" src="Images/nextplay.svg" alt="Next Buttons">
+                            <img width="35" id="previous" src="Images/prevplay.svg" alt="Previous Button">
+                            <img width="35" id="play" src="Images/play.svg" alt="Play Button">
+                            <img width="35" id="next" src="Images/nextplay.svg" alt="Next Button">
                         </div>
                         <div class="timevol">
-                        <div class="songtime">
-
-                        </div>
-                        <div class="volume">
-                            <img width="25" src="Images/volume.svg" alt="">
-                            <div class="range">
-                                <input type="range" name="volume" id="">
+                            <div class="songtime">
+                                <!-- Time display -->
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="Images/volume.svg" alt="Volume Control">
+                                <div class="range">
+                                    <input type="range" name="volume">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                
+                </div>
+
             </div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
